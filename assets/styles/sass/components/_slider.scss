@@ -18,3 +18,37 @@
         }
     }
 }
+
+.glider-next,
+.glider-prev {
+    background-color: rgba($color: var.$white-color, $alpha: 0.7);
+    border-radius: 50%;
+    color: var.$text-primary-color;
+    @include mixins.sizer(50px);
+    @include mixins.flex-position(row);
+    top: 40%;
+
+    @media screen and (max-width: 1020px) {
+        top: 30%;
+    }
+}
+
+.glider-next {
+    @media screen and (min-width: 340px) {
+        left: 85%;
+    }
+    @media screen and (min-width: 650px) {
+        left: 90%;
+    }
+    @media screen and (min-width: 1020px) {
+        left: 95%;
+    }
+}
+
+.glider-prev {
+    left: 25px;
+}
+
+.glider-dot.active {
+    background-color: var.$white-color;
+}

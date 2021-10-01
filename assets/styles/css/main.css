@@ -568,3 +568,47 @@ p {
     flex-direction: column;
   }
 }
+
+.glider-next,
+.glider-prev {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  color: #2d3033;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 40%;
+}
+@media screen and (max-width: 1020px) {
+  .glider-next,
+.glider-prev {
+    top: 30%;
+  }
+}
+
+@media screen and (min-width: 340px) {
+  .glider-next {
+    left: 85%;
+  }
+}
+@media screen and (min-width: 650px) {
+  .glider-next {
+    left: 90%;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .glider-next {
+    left: 95%;
+  }
+}
+
+.glider-prev {
+  left: 25px;
+}
+
+.glider-dot.active {
+  background-color: #fff;
+}
