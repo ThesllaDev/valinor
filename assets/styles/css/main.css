@@ -54,6 +54,15 @@ p {
   margin: 10px 40px;
 }
 
+.section-title {
+  color: #2b2e4a;
+  font: 700 2.5rem "Open Sans", sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
 .secondary-title {
   color: #2d3033;
   font: 700 0.875rem "Raleway", sans-serif;
@@ -306,6 +315,9 @@ p {
 }
 .testimonial-section blockquote {
   padding-bottom: 40px;
+}
+.testimonial-section .section-title {
+  color: #fff;
 }
 
 .download-section {

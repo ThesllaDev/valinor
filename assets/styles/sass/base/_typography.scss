@@ -22,6 +22,15 @@ p {
     margin: var.$gap-small var.$gap-large;
 }
 
+.section-title {
+    color: var.$brand-secondary-color;
+    font: var.$bold 2.5rem var.$font-secondary;
+    margin-bottom: var.$gap-large;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
 .secondary-title {
     color: var.$text-primary-color;
     font: var.$bold 0.875rem var.$font-primary;
