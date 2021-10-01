@@ -12,10 +12,15 @@
         margin: 0 var.$gap-medium;
         padding-top: var.$gap-large;
         width: 300px;
+    }
 
-        figcaption {
-            font-size: 0.875rem;
-        }
+    i {
+        color: var.$brand-primary-color;
+        font-size: 55px;
+    }
+
+    &__description {
+        font-size: 0.875rem;
     }
 
     @media screen and (max-width: 765px) {
